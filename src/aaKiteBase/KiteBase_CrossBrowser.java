@@ -24,7 +24,8 @@ public class KiteBase_CrossBrowser
 		
 		driver.get(KiteUtiity_Prop.getDataFromPropertyFile("URL"));
 		
-		KiteUtiity_Prop.callImplicitWait(driver, 5000);	
+		KiteUtiity_Prop.callImplicitWait(driver, 5000);
+		System.out.println("This is by Git");
 	}
 	
 	public void openFireFoxBrowser() throws IOException
