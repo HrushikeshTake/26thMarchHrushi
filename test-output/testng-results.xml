@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Launch Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfull]]>
+    </line>
+    <line>
+      <![CDATA[User ID Match TC Passed]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Browser Close Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-08T20:57:55 IST" name="Default suite" finished-at="2022-07-08T20:58:25 IST" duration-ms="30764">
+    <groups>
+    </groups>
+    <test started-at="2022-07-08T20:57:55 IST" name="Default test" finished-at="2022-07-08T20:58:25 IST" duration-ms="30764">
+      <class name="annotationsStudy.kiteUserID_Validate">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:annotationsStudy.kiteUserID_Validate@6fdbe764]" started-at="2022-07-08T20:57:55 IST" name="launchbrowser" finished-at="2022-07-08T20:58:10 IST" duration-ms="14835" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launch Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="loginKite()[pri:0, instance:annotationsStudy.kiteUserID_Validate@6fdbe764]" started-at="2022-07-08T20:58:10 IST" name="loginKite" finished-at="2022-07-08T20:58:14 IST" duration-ms="4354" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginKite -->
+        <test-method signature="validateUserId()[pri:1, instance:annotationsStudy.kiteUserID_Validate@6fdbe764]" started-at="2022-07-08T20:58:14 IST" name="validateUserId" finished-at="2022-07-08T20:58:16 IST" duration-ms="2140" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User ID Match TC Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserId -->
+        <test-method is-config="true" signature="logoutKite()[pri:0, instance:annotationsStudy.kiteUserID_Validate@6fdbe764]" started-at="2022-07-08T20:58:16 IST" name="logoutKite" finished-at="2022-07-08T20:58:16 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutKite -->
+        <test-method is-config="true" signature="loginKite()[pri:0, instance:annotationsStudy.kiteUserID_Validate@6fdbe764]" started-at="2022-07-08T20:58:16 IST" name="loginKite" finished-at="2022-07-08T20:58:21 IST" duration-ms="4292" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginKite -->
+        <test-method signature="validateDashBoard()[pri:2, instance:annotationsStudy.kiteUserID_Validate@6fdbe764]" started-at="2022-07-08T20:58:21 IST" name="validateDashBoard" finished-at="2022-07-08T20:58:25 IST" duration-ms="4204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDashBoard -->
+        <test-method is-config="true" signature="logoutKite()[pri:0, instance:annotationsStudy.kiteUserID_Validate@6fdbe764]" started-at="2022-07-08T20:58:25 IST" name="logoutKite" finished-at="2022-07-08T20:58:25 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutKite -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:annotationsStudy.kiteUserID_Validate@6fdbe764]" started-at="2022-07-08T20:58:25 IST" name="browserclose" finished-at="2022-07-08T20:58:25 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Close Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- annotationsStudy.kiteUserID_Validate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
